@@ -1,0 +1,444 @@
+*{
+     padding: 0;
+     margin: 0;
+}
+     body	{ font: normal 12px "Verdana", sans-serif;
+           background-color:  #7691ff;
+            text-align: center; }
+
+header div   {
+    height: 130px;
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+.mesafe{
+     height: 70px;
+}
+.kilif	{ 
+     width: 960px; background: url('resimler/wrapper-bg.gif') repeat-x #ebeae8;
+     margin: 0 auto; 
+     height: auto;
+     text-align: left; }
+  
+
+    .site_menu	{ 
+         padding-top: 15px;
+         margin: 0 -20px; 
+
+     }
+
+.site_menu	ul	{
+     padding-left:20px;
+      list-style: none;
+      overflow: auto;
+      width: 980px;
+     background-color: #017069;
+      font-size: 16px;
+      text-transform: uppercase;}
+      
+.site_menu	ul	li	{ float: left ;
+      padding-right: 50px; }
+ .site_menu	ul	li	a	{ 
+     color: #000000; }
+.site_menu	ul	li	a	{
+      float: left; 
+     padding: 15px 30px; }
+.site_menu	ul	li	a:hover	{
+      background-color: #000000; color: #026a50; }
+
+
+
+.turlar	{ 
+    list-style: none; 
+ width: 974px;
+      height: 380px;
+     
+      
+}
+.turlar li{
+     display: inline-block;
+     padding: 30px;
+
+     }
+     .aciklama{
+
+          list-style: none;
+          border-bottom: #ed1c24 solid; 
+          padding-bottom: 60px;
+          
+      
+     }
+     .aciklama li {
+          display: inline-block;
+          padding-left: 80px; ;
+          margin-left: 100px;
+      
+     
+
+     }
+     .aciklama li a{
+          text-decoration: none;
+     }
+     .aciklama h4{
+
+  
+      color: #ed1c24; 
+      font-size: 20px;
+      line-height: 24px; 
+     border-bottom: #ed1c24 solid; 
+}
+
+  
+       .yurtdis{
+
+          list-style: none;
+       }
+          .yurtdis li{
+               padding: 30px;
+               display: inline block;
+               border-bottom:3px solid #ed1c24 ;
+          }
+          .yurtdis li h1{
+               float:inline-end;
+          padding-right:300px;
+     padding-top: 30px;
+     color: #ed1c24; 
+          font-size: 16px;
+         font-weight: normal;
+         line-height: 24px;
+     }
+     .yurtdis li p{
+          float:inline-end;
+     padding-right:250px;
+padding-top: 30px;
+color: #000000; 
+     font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+}
+     .yurtici{
+
+          list-style: none;
+       }
+          .yurtici li{
+               padding: 30px;
+               border-bottom:3px solid #ed1c24 ;
+          }
+          .yurtici li h1{
+          float:inline-end;
+          padding-right:300px;
+          padding-top: 30px;
+          color: #ed1c24; 
+          font-size: 16px;
+         font-weight: normal;
+         line-height: 24px;
+     }   .yurtici div{
+color: #000000; 
+float:right;
+padding-top: 10px;
+padding-right: 250px;
+     font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0%;
+    clear: both;
+
+}
+.active a{
+
+     background-color: #2d3bff;
+}
+
+
+.otel{
+
+     list-style: none;
+  }
+     .otel li{
+          padding: 30px;
+          display: inline block;
+          border-bottom:3px solid #ed1c24 ;
+     }
+
+     .sehir h1{ 
+          padding-right:300px;
+          padding-top: 30px;
+          color: #ed1c24; 
+          font-size: 18px;
+         font-weight: normal;
+         line-height: 24px;
+     text-align: center;}
+         
+         .otel div{
+       
+               color: #000000; 
+               float:right;
+               padding-top: 10px;
+               padding-right: 200px;
+                    font-size: 16px;
+                   font-weight: normal;
+                   line-height: 24px;
+                   margin: 0%;
+                   clear: both;
+               
+               
+         }
+
+         .arac{
+background-color: #fff;
+          list-style: none;
+       }
+          .arac li{
+               padding: 30px;
+               border-bottom:3px solid #ed1c24 ;
+          }
+          
+     .arac li div{ 
+          color: #000000; 
+          float:right;
+          padding-top: 20px;
+          padding-right: 300px;
+               font-size: 16px;
+              font-weight: normal;
+              line-height: 24px;
+         }
+         .rezler	{ 
+          list-style: none; 
+           width: 974px;
+            height: auto;
+            
+      }
+      .rezler li{
+           display: inline-block;
+           padding: 30px;
+      
+           }
+           .rez-aciklama{
+      
+                list-style: none;
+                padding-bottom: 60px;
+            
+           }
+           .rez-aciklama li {
+                display: inline-block;
+                padding-left: 80px; ;
+                margin-left: 100px;
+            
+           
+      
+           }
+           .rez-aciklama li a{
+                text-decoration: none;
+           }
+           .rez-aciklama h4{
+      
+        
+            color: #ed1c24; 
+            font-size: 20px;
+            line-height: 24px; 
+           border-bottom: #ed1c24 solid; }
+           .araba{
+               padding-left: 240px;
+           }
+      
+         
+.rez_kutusu {
+     width: 100%;
+     max-width: 650px;
+     background :url(resimler/istanbul.jpg) ;
+     background-repeat:repeat;
+     padding: 28px;
+     margin: 0 28px;
+     border-radius: 10px;
+     box-shadow: inset -2px 2px 2px white;
+      margin-left:110px ;
+   
+
+}
+.rez_kutusu h2{
+     font-size: 26px;
+     font-weight: 600;
+     text-align: center;
+     padding-bottom: 6px;
+     color: white;
+     text-shadow: 2px 2px 2px black;
+     border-bottom: solid 1px white;
+}
+ .musteri-bilgi{
+     display: flex;
+     flex-wrap: wrap;
+     padding: 20px 0;
+
+ }
+ .musteri-bilgi label{
+     width: 95%;
+     color: #000000;
+     font-size: 20px;
+     margin :5px 0;}
+     .musteri-bilgi input{
+height: 40px;
+width: 95%;
+border-radius: 7px;
+border: 1px solid grey;
+     }
+            
+
+     .cinsiyet-baslik{
+          color: #000000;
+          font-size: 16px;
+          font-weight: 600;
+          border-bottom: 1px solid white;
+
+     }
+     .cinsiyet-tur{
+          margin: 15px 0;
+          color: white;
+     }
+     .cinsiyet-tur label{
+          padding: 0 20px 0 5px;
+          color: #000000;
+          
+
+     }
+     .gonder{
+          margin-top: 60px;
+     }
+.gonder input{
+     width: 100%;
+     font-size: 20px;
+     padding: 10px;
+     border: none;
+     border-radius:10px;
+     color: #000000;
+     background-color: #026a50;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
+}
+.gonder input:hover{
+     background-color: #000000;
+      color: #026a50;
+}
+
+
+.kutu {
+
+     width: 400px;
+     margin:100px 240px 100px 240px;
+     padding:40px;
+     box-shadow:0 0 10px rgba(0,0,0,358);
+     background: rgba(255,255,255,0,277);
+
+    }
+    .kutu h2{
+     font-size: 24px;
+text-align: center;
+color: #1f7429;   
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
+
+}
+.kutu label{
+     padding-top: 30px;
+display: block;
+margin-bottom: 5px;
+color: #000000;
+font-size: 14px;
+
+}
+ .kutu input ,textarea{
+     width: 90%;
+     padding: 10px;
+     margin-bottom: 10px;
+     border: 1px solid #092408;
+     border-radius: 5px;
+     background-color:rgba(255,255,255,255,0) ;
+  }
+
+
+
+footer{
+     
+     background-color: #111;
+     width: 902px;
+     text-align: center;
+     justify-content: center;
+     padding: auto;
+ }
+ .footerContainer{
+ width: 100%;
+ padding: 70px 30px 20px;
+ background-color: #111;
+ 
+ 
+ }
+ .socialIcons{
+     display: flex;
+     justify-content:center ;
+ 
+ }
+ .socialIcons a{
+     text-decoration: none;
+     padding: 10px;
+     background-color: white;
+     margin: 10px;
+     border-radius:50% ;
+ }
+ 
+ .socialIcons a:hover {
+     background-color: #111;
+     transform: 0.5s;
+ 
+ }
+ .footer nav{
+     margin: 30px 0 ;
+ 
+ }
+ .footernav ul{
+     display: flex;
+     justify-content: center;
+     list-style: none;
+ }
+ .footernav ul li a{
+     color: white;
+     margin: 20px;
+     text-decoration: none;
+     font-size: 1.3em;
+     opacity: 0,7;
+     transition: 0.5s;
+     text-transform: uppercase;
+ 
+ }
+ .footernav ul li a:hover{
+     opacity: 1;
+ 
+ }
+ .footerBottom p{
+     color: white;
+ 
+ }
+ .designer{
+     opacity: 0.7;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-weight: 400;
+     margin: 0px 5px;
+     
+ }
+ .footernav ul li {
+     width: 100%;
+     text-align: center;
+     margin: 10px;
+ 
+     
+ }
+ .clearfix{
+     clear: both;
+ }
+ .oldu{
+     text-align: center;
+     width: 20px;
+     color: #1f7429;
+     
+
+ }
